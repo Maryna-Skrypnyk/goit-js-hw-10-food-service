@@ -1,0 +1,11 @@
+<div class="menu">
+  <h3 class="menu-name">{{name}}</h3>
+  <p class="menu-description">{{description}}</p>
+  <img src="" alt="">
+  <p class="menu-price">{{price}}</p>
+  <ul class="menu-list">
+    {{#each ingredients}}
+    <li class="menu-item">{{this}}</li>
+    {{/each}}
+  </ul>
+</div>
